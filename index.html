@@ -51,7 +51,7 @@
 
       let loader = new THREE.TextureLoader();
       loader.load(
-        'https://pub-5e5002a97ed346e5906448c5ab66c50b.r2.dev/fog.png',
+        './fog.png',
         function (texture) {
           cloudGeo = new THREE.PlaneBufferGeometry(500, 500);
           cloudMaterial = new THREE.MeshLambertMaterial({
